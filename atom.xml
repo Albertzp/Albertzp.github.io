@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>张鹏の博客</title>
+  
+  <subtitle>[object Object]</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://albertzpzp.github.io/"/>
+  <updated>2020-04-07T07:59:34.264Z</updated>
+  <id>https://albertzpzp.github.io/</id>
+  
+  <author>
+    <name>张鹏</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客功能清单</title>
+    <link href="https://albertzpzp.github.io/posts/6.html"/>
+    <id>https://albertzpzp.github.io/posts/6.html</id>
+    <published>2019-12-27T12:02:34.000Z</published>
+    <updated>2020-04-07T07:59:34.264Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简短介绍"><a href="#简短介绍" class="headerlink" title="简短介绍"></a>简短介绍</h1><p>  把个人博客网站完善了，目前这个版本使用应该是够了，当然还有一些优化项和功能增加后续在慢慢更新。</p><p>本博客基于<code>Hexo</code>框架搭建，用到[hexo-theme-matery]主题, 并在此基础之上做了很多修改，修复了一些bug，增加了一些新的特性和功能，博客地址：[albertzp.github.io]，博客演示：<a href="https://albertzp.github.io/">albertzp.github.io/</a>。</p><hr><h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><p><strong>原主题特性</strong>:</p><ul><li><p>简单漂亮，文章内容美观易读</p></li><li><p>[Material Design] 设计</p></li><li><p>响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现</p></li><li><p>首页轮播文章及每天动态切换 <code>Banner</code> 图片</p></li><li><p>瀑布流式的博客文章列表（文章无特色图片时会有 <code>24</code> 张漂亮的图片代替）</p></li><li><p>时间轴式的归档页</p></li><li><p><strong>词云</strong>的标签页和<strong>雷达图</strong>的分类页</p></li><li><p>丰富的关于我页面（包括关于我、文章统计图、我的项目、我的技能、相册等）</p></li><li><p>可自定义的数据的友情链接页面</p></li><li><p>支持文章置顶和文章打赏</p></li><li><p>支持 <code>MathJax</code></p></li><li><p><code>TOC</code> 目录</p></li><li><p>可设置复制文章内容时追加版权信息</p></li><li><p>可设置阅读文章时做密码验证</p></li><li><p><a href="https://gitalk.github.io/">Gitalk</a>、<a href="https://imsun.github.io/gitment/">Gitment</a>、<a href="https://valine.js.org/">Valine</a> 和 <a href="https://disqus.com/">Disqus</a> 评论模块（推荐使用 <code>Gitalk</code>）</p></li><li><p>集成了<a href="http://busuanzi.ibruce.info/">不蒜子统计</a>、谷歌分析（<code>Google Analytics</code>）和文章字数统计等功能</p></li><li><p>支持在首页的音乐播放和视频播放功能</p><p><strong>增加的工作或特性(未打钩的是已做但还没更新到源码的)</strong>:</p></li><li><p>修改了原主题的一些很多<code>bug</code>   2019.08.05</p></li><li><p>加入图片懒加载功能，在根目录配置文件开启和关闭    2019.08.09</p></li><li><p>增加<code>留言板</code>功能          2019.08.05</p></li><li><p>在关于板块,加入<code>简历</code>功能页   2019.08.05</p></li><li><p>增加视听[视觉听觉影音]板块       2019.08.10</p></li><li><p>支持<code>emoji</code>表情，用<code>markdown emoji</code>语法书写直接生成对应的能<strong>跳跃</strong>的表情。  2019.08.10</p></li><li><p>增加网站运行时间显示  2019.08.10</p></li><li><p>增加<code>动漫模型</code>     2019.08.10</p></li><li><p>整体替换Banner图片和文章特色图片   2019.08.10</p></li><li><p>增加分类<code>相册</code>功能         2019.08.29</p></li><li><p>去掉标签页,将其合并至<code>分类</code>页中                2019.09.01</p></li><li><p>修改了一些控件的参数   2019.09.01</p></li><li><p>修改部分样式,比如: 文章卡片,固定高度,使其不至于因为文章摘要的长短不同导致卡片大小不一使页面布局很不美观,类似的还有友链卡片,优化了页面内容布局,视觉更整齐美观          2019.09.01</p></li><li><p>解决首页文章列表卡片上方 <code>border-radius</code>圆角失效的bug  2019.09.01</p></li><li><p>添加页面樱花飘落动效            2019.09.09</p></li><li><p>添加鼠标点击烟花爆炸动效   2019.09.09</p></li><li><p>加入天气接口控件   2019.09.09</p></li><li><p>加入鼠标点击文字特效   2019.09.10</p></li><li><p>添加页面雪花飘落动效            2019.09.10</p></li><li><p>添加在线聊天插件            2019.09.12</p></li><li><p>持续更新…</p></li></ul><hr><p><strong>简单使用方法：</strong></p><ol><li><code>star</code> 本项目</li><li>安装<a href="https://git-scm.com/downloads">Git</a>, 安装<a href="https://nodejs.org/en/">nodeJS</a></li><li>你可以直接<code>fork</code>一份源码到你的仓库，<code>clone</code>到本地</li><li>在本地博客仓库运行<code>npm i</code>命令安装依赖包</li><li>修改配置信息，改成自己的信息</li><li>运行命令<code>hexo  clean</code>（清除生成文件），<code>hexo g</code>（生成网页）， <code>hexo  s</code>（本地预览），<code>hexo d</code>（部署）</li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;简短介绍&quot;&gt;&lt;a href=&quot;#简短介绍&quot; class=&quot;headerlink&quot; title=&quot;简短介绍&quot;&gt;&lt;/a&gt;简短介绍&lt;/h1&gt;&lt;p&gt;  把个人博客网站完善了，目前这个版本使用应该是够了，当然还有一些优化项和功能增加后续在慢慢更新。&lt;/p&gt;
+&lt;p&gt;本博客基于
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://albertzpzp.github.io/categories/Hexo/"/>
+    
+    
+      <category term="教程" scheme="https://albertzpzp.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Hexo" scheme="https://albertzpzp.github.io/tags/Hexo/"/>
+    
+      <category term="GitHub" scheme="https://albertzpzp.github.io/tags/GitHub/"/>
+    
+  </entry>
+  
+</feed>
