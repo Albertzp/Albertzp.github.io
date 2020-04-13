@@ -4,8 +4,8 @@
 
 <head><link rel=manifest href=/manifest.json>
     <meta charset="utf-8">
-    <meta name="keywords" content="博客功能清单, Java developer&#39;s advanced journey Java开发工程师的进阶之旅">
-    <meta name="description" content="博客功能清单">
+    <meta name="keywords" content="JVM总结, Java developer&#39;s advanced journey Java开发工程师的进阶之旅">
+    <meta name="description" content="JVM总结">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -15,7 +15,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="white"/>
     <meta name="referrer" content="no-referrer">
-    <title>博客功能清单 | 张鹏の博客</title>
+    <title>JVM总结 | 张鹏の博客</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
@@ -419,12 +419,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/banner/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/banner/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">博客功能清单</h1>
+                    <h1 class="description center-align post-title">JVM总结</h1>
                 </div>
             </div>
         </div>
@@ -574,21 +574,21 @@
                 
                     <div class="post-date info-break-policy">
                         <i class="fa fa-calendar-check-o fa-fw"></i>更新日期:&nbsp;&nbsp;
-                        2020-04-07
+                        2020-04-13
                     </div>
                 
 
                 
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        908
+                        2.1k
                     </div>
                 
 
                 
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        3 分
+                        7 分
                     </div>
                 
 
@@ -598,99 +598,44 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="简短介绍"><a href="#简短介绍" class="headerlink" title="简短介绍"></a>简短介绍</h1><p>  把个人博客网站完善了，目前这个版本使用应该是够了，当然还有一些优化项和功能增加后续在慢慢更新。</p>
-<p>本博客基于<code>Hexo</code>框架搭建，用到[hexo-theme-matery]主题, 并在此基础之上做了很多修改，修复了一些bug，增加了一些新的特性和功能，博客地址：[albertzp.github.io]，博客演示：<a href="https://albertzp.github.io/">albertzp.github.io/</a>。</p>
-<hr>
-<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><p><strong>原主题特性</strong>:</p>
+                <p>#java虚拟机简述</p>
+<p>Java虚拟机是一个可以执行Java字节码的虚拟机进程。Java源文件被编译成被Java虚拟机执行的字节码文件。 Java被设计成允许应用程序可以运行在任意的平台，而不需要程序员为每一个平台单独重写或者是重新编译。Java虚拟机让这个变为可能，因为它知道底层硬件平台的指令长度和其他特性。</p>
+<p>#java内存结构<br>方法区和对是所有线程共享的内存区域；而java栈、本地方法栈和程序员计数器是运行是线程私有的内存区域。</p>
 <ul>
-<li><p>简单漂亮，文章内容美观易读</p>
-</li>
-<li><p>[Material Design] 设计</p>
-</li>
-<li><p>响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现</p>
-</li>
-<li><p>首页轮播文章及每天动态切换 <code>Banner</code> 图片</p>
-</li>
-<li><p>瀑布流式的博客文章列表（文章无特色图片时会有 <code>24</code> 张漂亮的图片代替）</p>
-</li>
-<li><p>时间轴式的归档页</p>
-</li>
-<li><p><strong>词云</strong>的标签页和<strong>雷达图</strong>的分类页</p>
-</li>
-<li><p>丰富的关于我页面（包括关于我、文章统计图、我的项目、我的技能、相册等）</p>
-</li>
-<li><p>可自定义的数据的友情链接页面</p>
-</li>
-<li><p>支持文章置顶和文章打赏</p>
-</li>
-<li><p>支持 <code>MathJax</code></p>
-</li>
-<li><p><code>TOC</code> 目录</p>
-</li>
-<li><p>可设置复制文章内容时追加版权信息</p>
-</li>
-<li><p>可设置阅读文章时做密码验证</p>
-</li>
-<li><p><a href="https://gitalk.github.io/">Gitalk</a>、<a href="https://imsun.github.io/gitment/">Gitment</a>、<a href="https://valine.js.org/">Valine</a> 和 <a href="https://disqus.com/">Disqus</a> 评论模块（推荐使用 <code>Gitalk</code>）</p>
-</li>
-<li><p>集成了<a href="http://busuanzi.ibruce.info/">不蒜子统计</a>、谷歌分析（<code>Google Analytics</code>）和文章字数统计等功能</p>
-</li>
-<li><p>支持在首页的音乐播放和视频播放功能</p>
-<p><strong>增加的工作或特性(未打钩的是已做但还没更新到源码的)</strong>:</p>
-</li>
-<li><p>修改了原主题的一些很多<code>bug</code>   2019.08.05</p>
-</li>
-<li><p>加入图片懒加载功能，在根目录配置文件开启和关闭    2019.08.09</p>
-</li>
-<li><p>增加<code>留言板</code>功能          2019.08.05</p>
-</li>
-<li><p>在关于板块,加入<code>简历</code>功能页   2019.08.05</p>
-</li>
-<li><p>增加视听[视觉听觉影音]板块       2019.08.10</p>
-</li>
-<li><p>支持<code>emoji</code>表情，用<code>markdown emoji</code>语法书写直接生成对应的能<strong>跳跃</strong>的表情。  2019.08.10</p>
-</li>
-<li><p>增加网站运行时间显示  2019.08.10</p>
-</li>
-<li><p>增加<code>动漫模型</code>     2019.08.10</p>
-</li>
-<li><p>整体替换Banner图片和文章特色图片   2019.08.10</p>
-</li>
-<li><p>增加分类<code>相册</code>功能         2019.08.29</p>
-</li>
-<li><p>去掉标签页,将其合并至<code>分类</code>页中                2019.09.01</p>
-</li>
-<li><p>修改了一些控件的参数   2019.09.01</p>
-</li>
-<li><p>修改部分样式,比如: 文章卡片,固定高度,使其不至于因为文章摘要的长短不同导致卡片大小不一使页面布局很不美观,类似的还有友链卡片,优化了页面内容布局,视觉更整齐美观          2019.09.01</p>
-</li>
-<li><p>解决首页文章列表卡片上方 <code>border-radius</code>圆角失效的bug  2019.09.01</p>
-</li>
-<li><p>添加页面樱花飘落动效            2019.09.09</p>
-</li>
-<li><p>添加鼠标点击烟花爆炸动效   2019.09.09</p>
-</li>
-<li><p>加入天气接口控件   2019.09.09</p>
-</li>
-<li><p>加入鼠标点击文字特效   2019.09.10</p>
-</li>
-<li><p>添加页面雪花飘落动效            2019.09.10</p>
-</li>
-<li><p>添加在线聊天插件            2019.09.12</p>
-</li>
-<li><p>持续更新…</p>
-</li>
+<li>Java堆（Heap）,是Java虚拟机所管理的内存中最大的一块。Java堆是被所有线程共享的一块内存区域，在虚拟机启动时创建。此内存区域的唯一目的就是存放对象实例，几乎所有的对象实例都在这里分配内存。</li>
+<li>方法区（Method Area）,方法区（Method Area）与Java堆一样，是各个线程共享的内存区域，它用于存储已被虚拟机加载的类信息、常量、静态变量、即时编译器编译后的代码等数据。</li>
+<li>程序计数器（Program Counter Register）,程序计数器（Program Counter Register）是一块较小的内存空间，它的作用可以看做是当前线程所执行的字节码的行号指示器。</li>
+<li>JVM栈（JVM Stacks）,与程序计数器一样，Java虚拟机栈（Java Virtual Machine Stacks）也是线程私有的，它的生命周期与线程相同。虚拟机栈描述的是Java方法执行的内存模型：每个方法被执行的时候都会同时创建一个栈帧（Stack Frame）用于存储局部变量表、操作栈、动态链接、方法出口等信息。每一个方法被调用直至执行完成的过程，就对应着一个栈帧在虚拟机栈中从入栈到出栈的过程。</li>
+<li>本地方法栈（Native Method Stacks）,本地方法栈（Native Method Stacks）与虚拟机栈所发挥的作用是非常相似的，其区别不过是虚拟机栈为虚拟机执行Java方法（也就是字节码）服务，而本地方法栈则是为虚拟机使用到的Native方法服务。</li>
 </ul>
-<hr>
-<p><strong>简单使用方法：</strong></p>
-<ol>
-<li><code>star</code> 本项目</li>
-<li>安装<a href="https://git-scm.com/downloads">Git</a>, 安装<a href="https://nodejs.org/en/">nodeJS</a></li>
-<li>你可以直接<code>fork</code>一份源码到你的仓库，<code>clone</code>到本地</li>
-<li>在本地博客仓库运行<code>npm i</code>命令安装依赖包</li>
-<li>修改配置信息，改成自己的信息</li>
-<li>运行命令<code>hexo  clean</code>（清除生成文件），<code>hexo g</code>（生成网页）， <code>hexo  s</code>（本地预览），<code>hexo d</code>（部署）</li>
-</ol>
+<p>#栈（stack）、堆（heap）、方法区（method area）的用法</p>
+<ul>
+<li>通常我们定义一个基本数据类型的变量，一个对象的引用，还有就是函数调用的现场保存都使用JVM中的栈空间；</li>
+<li>通过new关键字和构造器创建的对象则放在堆空间，堆是垃圾收集器管理的主要区域，由于现在的垃圾收集器都采用分代收集算法，所以堆空间还可以细分为新生代和老生代，再具体一点可以分为Eden、Survivor（又可分为From Survivor和To Survivor）、Tenured；</li>
+<li>方法区和堆都是各个线程共享的内存区域，用于存储已经被JVM加载的类信息、常量、静态变量、JIT编译器编译后的代码等数据；</li>
+<li>程序中的字面量（literal）如直接书写的100、”hello”和常量都是放在常量池中，常量池是方法区的一部分。</li>
+<li>栈空间操作起来最快但是栈很小，通常大量的对象都是放在堆空间，栈和堆的大小都可以通过JVM的启动参数来进行调整，栈空间用光了会引发StackOverflowError，而堆和常量池空间不足则会引发OutOfMemoryError。</li>
+</ul>
+<pre class="line-numbers language-java"><code class="language-java">  String str<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">"hello"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>变量str放在栈上，用new创建出来的字符串对象放在堆上，而”hello”这个字面量是放在方法区的。</li>
+</ul>
+<p>#对象分配原则</p>
+<ul>
+<li>对象优先分配在Eden区，如果Eden区没有足够的空间时，虚拟机执行一次Minor GC。</li>
+<li>大对象直接进入老年代（大对象是指需要大量连续内存空间的对象）。这样做的目的是避免在Eden区和两个Survivor区之间发生大量的内存拷贝（新生代采用复制算法收集内存）。</li>
+<li>长期存活的对象进入老年代。虚拟机为每个对象定义了一个年龄计数器，如果对象经过了1次Minor GC那么对象会进入Survivor区，之后每经过一次Minor GC那么对象的年龄加1，知道达到阀值对象进入老年区。</li>
+<li>动态判断对象的年龄。如果Survivor区中相同年龄的所有对象大小的总和大于Survivor空间的一半，年龄大于或等于该年龄的对象可以直接进入老年代。</li>
+<li>空间分配担保。每次进行Minor GC时，JVM会计算Survivor区移至老年区的对象的平均大小，如果这个值大于老年区的剩余值大小则进行一次Full GC，如果小于检查HandlePromotionFailure设置，如果true则只进行Monitor GC,如果false则进行Full GC。</li>
+</ul>
+<p>#类的加载</p>
+<pre><code>类的加载指的是将类的.class文件中的二进制数据读入到内存中，将其放在运行时数据区的方法区内，然后在堆区创建一个java.lang.Class对象，用来封装类在方法区内的数据结构。类的加载的最终产品是位于堆区中的Class对象，Class对象封装了类在方法区内的数据结构，并且向Java程序员提供了访问方法区内的数据结构的接口。
+</code></pre><p>#JVM加载class文件的原理<br>JVM中类的装载是由类加载器（ClassLoader）和它的子类来实现的，Java中的类加载器是一个重要的Java运行时系统组件，它负责在运行时查找和装入类文件中的类。 由于Java的跨平台性，经过编译的Java源程序并不是一个可执行程序，而是一个或多个类文件。当Java程序需要使用某个类时，JVM会确保这个类已经被加载、连接（验证、准备和解析）和初始化。类的加载是指把类的.class文件中的数据读入到内存中，通常是创建一个字节数组读入.class文件，然后产生与所加载类对应的Class对象。加载完成后，Class对象还不完整，所以此时的类还不可用。当类被加载后就进入连接阶段，这一阶段包括验证、准备（为静态变量分配内存并设置默认的初始值）和解析（将符号引用替换为直接引用）三个步骤。最后JVM对类进行初始化，包括：1)如果类存在直接的父类并且这个类还没有被初始化，那么就先初始化父类；2)如果类中存在初始化语句，就依次执行这些初始化语句。 类的加载是由类加载器完成的，类加载器包括：根加载器（BootStrap）、扩展加载器（Extension）、系统加载器（System）和用户自定义类加载器（java.lang.ClassLoader的子类）。从Java 2（JDK 1.2）开始，类加载过程采取了父亲委托机制（PDM）。PDM更好的保证了Java平台的安全性，在该机制中，JVM自带的Bootstrap是根加载器，其他的加载器都有且仅有一个父类加载器。类的加载首先请求父类加载器加载，父类加载器无能为力时才由其子类加载器自行加载。JVM不会向Java程序提供对Bootstrap的引用。<br>下面是关于几个类加载器的说明：</p>
+<ul>
+<li>Bootstrap：一般用本地代码实现，负责加载JVM基础核心类库（rt.jar）；</li>
+<li>Extension：从java.ext.dirs系统属性所指定的目录中加载类库，它的父加载器是Bootstrap；</li>
+<li>System：又叫应用类加载器，其父类是Extension。它是应用最广泛的类加载器。它从环境变量classpath或者系统属性java.class.path所指定的目录中记载类，是用户自定义加载器的默认父加载器。</li>
+</ul>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -898,10 +843,9 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-            <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article col s12 m6" data-aos="fade-up">
                 <div class="article-badge left-badge text-color">
-                    <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-                </div>
+                    <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
                 <div class="card">
                     <a href="/posts/6.html">
                         <div class="card-image">
@@ -918,9 +862,9 @@
                             
                         </div>
                         <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-27
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-27
+                        </span>
                             <span class="publish-author">
                                 
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -933,7 +877,6 @@
                             </span>
                         </div>
                     </div>
-
                     
                         <div class="card-action article-tags">
                             
@@ -963,15 +906,15 @@
                     <a href="/posts/6.html">
                         <div class="card-image">
                             
-                                <img src="/medias/banner/7.jpg" class="responsive-img" alt="博客功能清单">
+                                <img src="/medias/banner/8.jpg" class="responsive-img" alt="JVM总结">
                             
-                            <span class="card-title">博客功能清单</span>
+                            <span class="card-title">JVM总结</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                博客功能清单
+                                JVM总结
                             
                         </div>
                         <div class="publish-info">
@@ -1164,7 +1107,7 @@
             
                 
                     &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;<span
-                            class="white-color">908</span>&nbsp;字
+                            class="white-color">3k</span>&nbsp;字
                 
                 
                 <script>
@@ -1385,7 +1328,7 @@
 
 
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1586254969968')
+  navigator.serviceWorker.register('/sw.js?t=1586748774950')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
